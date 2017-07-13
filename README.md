@@ -15,3 +15,7 @@ Currently supported schedules include:
 * `fixed` -- Schedule a task at a given timestamp
 
 The endpoint returns a task id, which can be used to cancel a task in the future.
+
+## Design
+
+Jikan was designed to handle a small amount of tasks that can all fit in memory. This makes the design a lot simpler.
